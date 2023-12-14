@@ -1,0 +1,69 @@
+body{
+   /* background: rgb(161, 78, 148);
+    background: linear-gradient(90deg, rgba(161, 78, 148, 1) 0%, rgba(240, 208, 194, 1) 0%, rgba(240, 208, 194, 1) 0%, rgba(37, 48, 249, 1) 50%, rgba(240, 208, 194, 1) 100%);*/
+    /*background: rgb(240, 194, 237);
+    background: linear-gradient(90deg, rgba(240, 194, 237, 1) 0%, rgba(240, 208, 194, 1) 0%, rgba(56, 233, 20, 0.8939950980392157) 0%, rgba(37, 48, 249, 0.8911939775910365) 50%, rgba(56, 233, 20, 0.9108018207282913) 100%);*/
+    /*background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);*/
+/*background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 30%, rgba(252, 70, 211, 0.8016456582633054) 55%);*/
+    background: rgb(43, 195, 34);
+        background: linear-gradient(0deg, rgba(43, 195, 34, 1) 1%, rgba(253, 251, 45, 1) 100%);
+        background-attachment: fixed;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+}
+#form{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.945);
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color:green;
+}
+#form button{
+    width:100%;
+    margin:20px 0px;
+    font-size: 20px;
+    padding:10px;
+    background-color:green;
+    color:white;
+    border:1px solid green;
+    border-radius: 5px;
+}
+.input-group{
+display: flex;
+flex-direction: column;
+margin-bottom:15px;
+}
+.input-group input{
+    margin-top:5px;
+    padding: 10px;
+    font-size: 20px;;
+    border: 1px solid rgb(240,208,194);
+    border-radius: 5px;   
+}
+.input-group label{
+    color:white;
+}
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    font-size: 16px;
+    color:rgb(253, 19, 19);
+    margin-top:5px;
+}
+
+.input-group.success input{
+    border-color: rgb(18, 168, 18);
+    border-width: 2px;
+}
+.input-group.error input{
+    border-color:rgb(253, 19, 19);
+    border-width:2px;
+}
